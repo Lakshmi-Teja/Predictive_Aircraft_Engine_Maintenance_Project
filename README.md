@@ -8,7 +8,7 @@
 * scikit-learn 0.19.0
 * pandas 0.20.3
 * TensorFlow 1.3.0
-* [Keras 2.1.1](https://keras.io)
+* Keras 2.1.1
 
 ## Problem Description
 In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines.The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future, so that maintenance can be planned in advance.This project involves in using sensor data, historical performance records, and operational parameters to predict potential engine issues specifically predicting engine failures and forecasting Remaining Useful Life of the engines before they lead to failures or disruptions
