@@ -1,5 +1,12 @@
 # LSTM Networks for Predictive Aircraft Engine Maintenance 
 
+## Problem Description
+In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines.The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future, so that maintenance can be planned in advance.This project involves in using sensor data, historical performance records, and operational parameters to predict potential engine issues specifically predicting engine failures and forecasting Remaining Useful Life of the engines before they lead to failures or disruptions
+The question to ask is "Given these aircraft engine operation and failure events history, can we predict when an in-service engine will fail?"
+We re-formulate this question into two closely relevant questions and answer them using two different types of machine learning models:
+
+	* Regression models: How many more cycles an in-service engine will last before it fails?
+	* Binary classification: Is this engine going to fail within w1 cycles?
 
 ## Software Environment
 * Python 3.6
@@ -9,14 +16,6 @@
 * pandas 0.20.3
 * TensorFlow 1.3.0
 * Keras 2.1.1
-
-## Problem Description
-In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines.The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future, so that maintenance can be planned in advance.This project involves in using sensor data, historical performance records, and operational parameters to predict potential engine issues specifically predicting engine failures and forecasting Remaining Useful Life of the engines before they lead to failures or disruptions
-The question to ask is "Given these aircraft engine operation and failure events history, can we predict when an in-service engine will fail?"
-We re-formulate this question into two closely relevant questions and answer them using two different types of machine learning models:
-
-	* Regression models: How many more cycles an in-service engine will last before it fails?
-	* Binary classification: Is this engine going to fail within w1 cycles?
 
 ## Data Summary
 In the **Dataset** directory there are the training, test and ground truth datasets.
