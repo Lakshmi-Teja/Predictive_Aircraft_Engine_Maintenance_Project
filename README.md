@@ -1,5 +1,6 @@
 # LSTM Networks for Predictive Aircraft Engine Maintenance 
 
+
 ## Problem Description
 In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines.The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future, so that maintenance can be planned in advance.This project involves in using sensor data, historical performance records, and operational parameters to predict potential engine issues specifically predicting engine failures and forecasting Remaining Useful Life of the engines before they lead to failures or disruptions
 The question to ask is "Given these aircraft engine operation and failure events history, can we predict when an in-service engine will fail?"
